@@ -1,0 +1,32 @@
+.nav__list {
+  background-color: #f9f9fa;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.nav__btn {
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+}
+.nav__dot {
+  background-color: tomato;
+  color: white;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: -5px;
+}
