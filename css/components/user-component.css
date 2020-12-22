@@ -53,3 +53,20 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__sub {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__warning {
+  width: 15px;
+  height: 15px;
+  color: red;
+  margin-left: 5px;
+  margin-top: 8px;
+  font-size: 12px;
+  text-align: center;
+  border: 1.5px solid red;
+  border-radius: 50%;
+}
