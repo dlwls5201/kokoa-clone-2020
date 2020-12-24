@@ -82,3 +82,60 @@
 .message-row--own .message-row__info {
   flex-direction: row-reverse;
 }
+
+.replay {
+  position: fixed;
+  bottom: 0;
+  padding: 5px 25px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.replay .replay__column:first-child {
+  width: 10%;
+}
+
+.replay .replay__column:last-child {
+  width: 90%;
+  position: relative;
+}
+
+.replay input {
+  width: 100%;
+  height: 30px;
+  padding: 3px 6px;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.replay__column i {
+  opacity: 0.5;
+}
+
+.replay__column:last-child > i,
+.replay__column:last-child button {
+  position: absolute;
+}
+
+.replay__column:last-child > i {
+  right: 40px;
+  top: 12px;
+}
+
+.replay__column:last-child button {
+  right: -6px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: 4px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+.replay__column:last-child button i {
+  opacity: 1;
+}
